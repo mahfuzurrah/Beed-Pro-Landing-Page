@@ -391,15 +391,15 @@ position: relative;
 .product_overview {
   width: 100%;
   height: 100%;
-  background: #606d80;
+  background: #606d8046;
 }
 
 .product_overview .section_title h2 {
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .product_overview .text h3 {
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 .product_overview ul {
@@ -411,7 +411,7 @@ position: relative;
 .product_overview ul li {
   list-style-type: disc;
   margin-left: 20px;
-  color: var(--white-color);
+  color: var(--primary-color);
 }
 
 /* ============
