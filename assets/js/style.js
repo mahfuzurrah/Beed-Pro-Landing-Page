@@ -36,12 +36,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   var swiper = new Swiper(".Swiper_product_overview", {
-    // direction: 'horizontal',
-    // loop: true,
-    // autoplay: {
-    //   delay: 5000,
-    //   disableOnInteraction: false,
-    // },
+    direction: 'horizontal',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
     pagination: {
       el: ".swiper-pagination",
     },
