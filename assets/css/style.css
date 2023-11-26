@@ -186,7 +186,7 @@ section {
 }
 
 .container {
-  max-width: 1550px;
+  max-width: 1250px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -321,6 +321,13 @@ button,
   }
 }
 
+.side_ex_bg {
+  position: fixed;
+  top: -25%;
+  right: -25%;
+  z-index: -99999;
+}
+
 /*====================== Banner ======================*/
 .banner .swiper,
 .banner .product_overview {
@@ -346,9 +353,6 @@ button,
   object-fit: cover;
 }
 
-/* .banner{
-position: relative;
-} */
 
 .banner .hero_banner {
   display: flex;
@@ -357,13 +361,24 @@ position: relative;
   position: relative;
 }
 
+.banner .swiper {
+  background: #000;
+}
+
+.banner .hero_banner img{
+  height: 600px;
+  object-fit: cover;
+  width: 100%;
+}
+
 .banner .hero_banner .container {
   position: absolute;
   top: 25%;
 }
 
 .banner .swiper-pagination {
-  top: 70%;
+  bottom: 20%;
+  transform: translateY(20%);
 }
 
 .banner .card_area {
@@ -392,7 +407,7 @@ position: relative;
 .product_overview {
   width: 100%;
   height: 100%;
-  background: #606d8046;
+  background: #606D80;
 }
 
 .product_overview .section_title h2 {
@@ -675,19 +690,9 @@ Footer css
 Responsive css
 ====================== */
 
-@media screen and (max-width: 1200px) {
-  .card_area {
-    margin-top: -30px !important;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .banner .swiper img {
     height: 550px;
-  }
-
-  .card_area {
-    margin-top: -80px !important;
   }
 
   .product_overview .section_title {
