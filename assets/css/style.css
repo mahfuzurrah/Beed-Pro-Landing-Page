@@ -172,8 +172,7 @@ img {
 
 /*====================== Coomon Css ======================*/
 section {
-  padding-top: 4.5rem;
-  padding-bottom: 50px;
+  padding: 4.5rem 0;
 }
 
 .section_title h2 {
@@ -448,6 +447,7 @@ button,
 
 .product_overview .product_content {
   background: #D7DADE;
+  padding: 30px 0
 }
 
 .product_overview .section_title {
