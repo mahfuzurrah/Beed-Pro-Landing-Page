@@ -48,9 +48,28 @@ document.addEventListener("DOMContentLoaded", function () {
       disableOnInteraction: false,
     },
     effect: "fade",
+    fadeEffect: {
+      crossFade: true
+    },
+    slidesPerView: 1, // Show only one slide at a time
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
   });
+
+  var swiperContainer = document.querySelector('.Swiper_product_overview');
+
+  swiperContainer.addEventListener('wheel', function (event) {
+    event.preventDefault();
+
+    if (event.deltaY < 0) {
+      // Scrolling up, go to the previous slide
+      swiper.slidePrev();
+    } else {
+      // Scrolling down, go to the next slide
+      swiper.slideNext();
+    }
+  });
+
 });

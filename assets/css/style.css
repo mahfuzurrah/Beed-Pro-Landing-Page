@@ -411,6 +411,7 @@ button,
 
 .product_overview .section_title h2 {
   color: var(--primary-color);
+  margin-bottom: -35px;
 }
 
 .product_overview .text h3 {
@@ -446,17 +447,13 @@ button,
 }
 
 .product_overview .product_content {
-  background: #D7DADE;
-  padding: 30px 0
+  padding-bottom: 40px;
 }
 
-.product_overview .section_title {
-  z-index: 99;
+.product_overview .product_content .text {
+  padding-top: 30px;
 }
 
-.product_overview .swiper-pagination{
-  
-}
 
 .product_overview .swiper {
   overflow-y: none;
