@@ -1,728 +1,847 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Beed Pro Landing Page</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="navbar">
-        <div class="container-fluid">
-            <div class="nav">
-                <a href="index.html" class="logo">
-                    <img src="assets/img/logo-black.svg" alt="" />
-                </a>
-                <ul class="nav_menu" id="toogle_menu">
-                    <li class="nav_list">
-                        <a href="#about_us" class="nav_link">About Us</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#product_overview" class="nav_link">Product Overview</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#value_proposition" class="nav_link">Value Proposition</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#pricing" class="nav_link">Pricing</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#user_manual" class="nav_link">User Manual</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#contact" class="nav_link">Contact Us</a>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#" class="btn">Client Area
-                            <iconify-icon class="icons" icon="grommet-icons:form-next"></iconify-icon></a>
-                    </li>
-                </ul>
-                <button class="toogle_btn" id="toggleButton">
-                    <iconify-icon class="icons" icon="ion:menu"></iconify-icon>
-                </button>
-            </div>
+      <div class="container-fluid">
+        <div class="nav">
+          <a href="index.html" class="logo">
+            <img src="assets/img/logo-black.svg" alt="" />
+          </a>
+          <ul class="nav_menu" id="toogle_menu">
+            <li class="nav_list">
+              <a href="#about_us" class="nav_link">About Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="#product_overview" class="nav_link">Product Overview</a>
+            </li>
+            <li class="nav_list">
+              <a href="#value_proposition" class="nav_link"
+                >Value Proposition</a
+              >
+            </li>
+            <li class="nav_list">
+              <a href="#pricing" class="nav_link">Pricing</a>
+            </li>
+            <li class="nav_list">
+              <a href="#user_manual" class="nav_link">User Manual</a>
+            </li>
+            <li class="nav_list">
+              <a href="#contact" class="nav_link">Contact Us</a>
+            </li>
+            <li class="nav_list">
+              <a href="#" class="btn"
+                >Client Area
+                <iconify-icon
+                  class="icons"
+                  icon="grommet-icons:form-next"
+                ></iconify-icon
+              ></a>
+            </li>
+          </ul>
+          <button class="toogle_btn" id="toggleButton">
+            <iconify-icon class="icons" icon="ion:menu"></iconify-icon>
+          </button>
         </div>
+      </div>
     </div>
 
     <div class="main">
-        <section class="banner p-0">
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="hero_banner">
-                            <img src="assets/img/Hero1.png" alt="" />
-                            <div class="container">
-                                <div class="text_continer">
-                                    <h1>
-                                        <span style="color: #e4b95e">Accelerated</span> buying
-                                        decision
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero_banner">
-                            <img src="assets/img/Hero2.png" alt="" />
-                            <div class="container">
-                                <div class="text_continer">
-                                    <h1>
-                                        <span style="color: #e4b95e">Automated </span>price
-                                        negotiation
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="hero_banner">
-                            <img src="assets/img/Hero3.png" alt="" />
-                            <div class="container">
-                                <div class="text_continer">
-                                    <h1>
-                                        <span style="color: #e4b95e">Unbiased</span> comparison of
-                                        offers
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            <div class="card_area">
+      <section class="banner p-0">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="hero_banner">
+                <img src="assets/img/Hero1.png" alt="" />
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <img src="assets/img/icons/contract.svg" alt="" />
-                                <h2>SUPPLIER & CONTRACT MANAGEMENT</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <img src="assets/img/icons/ai.svg" alt="" />
-                                <h2>PROCUREMENT AI <br />ASSISTANT</h2>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
-                            <div class="card">
-                                <img src="assets/img/icons/price.svg" alt="" />
-                                <h2>PRICE & COST <br />MANAGEMENT</h2>
-                            </div>
-                        </div>
-                    </div>
+                  <div class="text_continer">
+                    <h1>
+                      <span style="color: #e4b95e">Accelerated</span> buying
+                      decision
+                    </h1>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="about_us" id="about_us">
-            <div class="container">
-                <div class="about_text_content">
-                    <div class="section_title">
-                        <h2>About Us</h2>
-                    </div>
-                    <p class="mt-2">
-                        BEED.PRO Procurement AI-Assistant has been founded by Nordic
-                        Procurement AB Consulting Company, Finance, Operations,
-                        Transformation and Information Technology Senior Managers,
-                        leveraging on their accumulated experience for many decades in the
-                        corporate and government procurement, operations management,
-                        transformation and automation, as well as adopting current
-                        technological advancements of artificial intelligence. Using
-                        Generative Pre-Trained Transformer (GPT) technology, fine-tuned
-                        for procurement operations with continuous learning and improving
-                        capabilities based on self-aggregated data, the Procurement
-                        AI-assistant gives confidence to buyer companies that their
-                        procurement decisions are accelerated, price quotations are
-                        automated and the comparisons of limitless proposals are unbiased.
-                        The Procurement AI-Assistant also accelerates contract management
-                        cycle and supplier onboarding, not letting you to miss any
-                        approaching deadline and gives tools for re-negotiating the best
-                        procurement deal with no hassle.
-                    </p>
+            <div class="swiper-slide">
+              <div class="hero_banner">
+                <img src="assets/img/Hero2.png" alt="" />
+                <div class="container">
+                  <div class="text_continer">
+                    <h1>
+                      <span style="color: #e4b95e">Automated </span>price
+                      negotiation
+                    </h1>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="product_overview" id="product_overview">
-            <div class="container">
-                <div class="section_title">
-                    <h2>Product Overview</h2>
+            <div class="swiper-slide">
+              <div class="hero_banner">
+                <img src="assets/img/Hero3.png" alt="" />
+                <div class="container">
+                  <div class="text_continer">
+                    <h1>
+                      <span style="color: #e4b95e">Unbiased</span> comparison of
+                      offers
+                    </h1>
+                  </div>
                 </div>
-                <div class="swiper Swiper_product_overview">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <h3>
-                                            No matter you are registering as a buyer or supplier all
-                                            public information about the company will be
-                                            auto-uploaded to simplify the registration process.  
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/1.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <ul>
-                                            <li>
-                                                <h3>
-                                                    Add new company to your Supplier Contact List and
-                                                    the company information will be auto uploaded.
-                                                </h3>
-                                            </li>
-                                            <li>
-                                                <h3>
-                                                    Stay updated for the changes of the contact persons
-                                                    details automatically.
-                                                </h3>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/2.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <ul>
-                                            <li>
-                                                <h3>
-                                                    Upload procurement contracts with one click and let
-                                                    AI-Assistant to extract all intelligent data about
-                                                    payment terms, notice period and other details, and
-                                                    get automatic notifications of the contract status
-                                                    change.
-                                                </h3>
-                                            </li>
-                                            <li>
-                                                <h3>
-                                                    Renew the terms via automated price quotation
-                                                    process.
-                                                </h3>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/3.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <ul>
-                                            <li>
-                                                <h3>
-                                                    Procurement AI-Assistant will generate the document
-                                                    of requests for Proposals (RFP) by precisely
-                                                    defining the product and service descriptions
-                                                    matching to the needs of the specific employee
-                                                    category.
-                                                </h3>
-                                            </li>
-                                            <li>
-                                                <h3>
-                                                    Start asking for price quotation among pre-filtered
-                                                    and pre-validated suppliers matching to your
-                                                    procurement category in 3 simple steps. No emails!
-                                                    No phone calls! All in one place!
-                                                </h3>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/4.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <ul>
-                                            <li>
-                                                <h3>
-                                                    Receive limitless offers and let AI-Assistant to
-                                                    compare them with just one click to get valuable
-                                                    insights and comments for each pair of proposals,
-                                                    even if the proposals structures are different.
-                                                </h3>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/5.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="row align-items-center">
-                                <div class="col-lg-7 col-md-12">
-                                    <div class="text">
-                                        <ul>
-                                            <li>
-                                                <h3>
-                                                    Look at the best price quoted by your competitors
-                                                    and adjust your proposal in real time.
-                                                </h3>
-                                            </li>
-                                            <li>
-                                                <h3>
-                                                    No limitations, you are free to offer any price,
-                                                    betting on the proposed product or service quality.
-                                                </h3>
-                                            </li>
-                                            <li>
-                                                <h3>
-                                                    Be the first to learn what is needed for your
-                                                    customers and make the best offer in one click.
-                                                </h3>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-5 col-md-12">
-                                    <img src="assets/img/product/6.png" alt="" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+              </div>
             </div>
-        </section>
-        <section class="value_proposition pb-0" id="value_proposition">
-            <div class="container">
-                <div class="about_text_content">
-                    <div class="section_title">
-                        <h2>Value Proposition</h2>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="card_area">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img src="assets/img/icons/contract.svg" alt="" />
+                  <h2>SUPPLIER & CONTRACT MANAGEMENT</h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img src="assets/img/icons/ai.svg" alt="" />
+                  <h2>PROCUREMENT AI <br />ASSISTANT</h2>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <img src="assets/img/icons/price.svg" alt="" />
+                  <h2>PRICE & COST <br />MANAGEMENT</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about_us" id="about_us">
+        <div class="container">
+          <div class="about_text_content">
+            <div class="section_title">
+              <h2>About Us</h2>
+            </div>
+            <p class="mt-2">
+              BEED.PRO Procurement AI-Assistant has been founded by Nordic
+              Procurement AB Consulting Company, Finance, Operations,
+              Transformation and Information Technology Senior Managers,
+              leveraging on their accumulated experience for many decades in the
+              corporate and government procurement, operations management,
+              transformation and automation, as well as adopting current
+              technological advancements of artificial intelligence. Using
+              Generative Pre-Trained Transformer (GPT) technology, fine-tuned
+              for procurement operations with continuous learning and improving
+              capabilities based on self-aggregated data, the Procurement
+              AI-assistant gives confidence to buyer companies that their
+              procurement decisions are accelerated, price quotations are
+              automated and the comparisons of limitless proposals are unbiased.
+              The Procurement AI-Assistant also accelerates contract management
+              cycle and supplier onboarding, not letting you to miss any
+              approaching deadline and gives tools for re-negotiating the best
+              procurement deal with no hassle.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="product_overview" id="product_overview">
+        <div class="container">
+          <div class="section_title">
+            <h2>Product Overview</h2>
+          </div>
+          <div class="swiper Swiper_product_overview">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <h3>
+                        No matter you are registering as a buyer or supplier all
+                        public information about the company will be
+                        auto-uploaded to simplify the registration process.  
+                      </h3>
                     </div>
-                    <ul class="mt-3">
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <ul>
                         <li>
-                            <p>
-                                We are offering a set of tools with integrated Procurement
-                                AI-Assistant and promise to continuously improve the offered
-                                one-stop-solution for all your procurement operations, as an
-                                overarching solution to your existing processes.
-                            </p>
+                          <h3>
+                            Add new company to your Supplier Contact List and
+                            the company information will be auto uploaded.
+                          </h3>
                         </li>
                         <li>
-                            <p>
-                                The Procurement AI-Assistant enables large companies to manage
-                                tail spend with no material capacity requirement. It also
-                                enables Small and Medium Businesses to organize the
-                                procurement operations professionally, in a fast and simple
-                                way, not losing the sight on a single contract performance.
-                            </p>
+                          <h3>
+                            Stay updated for the changes of the contact persons
+                            details automatically.
+                          </h3>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <ul>
+                        <li>
+                          <h3>
+                            Upload procurement contracts with one click and let
+                            AI-Assistant to extract all intelligent data about
+                            payment terms, notice period and other details, and
+                            get automatic notifications of the contract status
+                            change.
+                          </h3>
                         </li>
                         <li>
-                            <p>
-                                Procurement AI-Assistant will supercharge the procurement
-                                professionals.
-                            </p>
+                          <h3>
+                            Renew the terms via automated price quotation
+                            process.
+                          </h3>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/3.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <ul>
+                        <li>
+                          <h3>
+                            Procurement AI-Assistant will generate the document
+                            of requests for Proposals (RFP) by precisely
+                            defining the product and service descriptions
+                            matching to the needs of the specific employee
+                            category.
+                          </h3>
                         </li>
                         <li>
-                            <p>
-                                Less time spent, more money saved through the synergy of human
-                                and artificial intelligence.
-                            </p>
+                          <h3>
+                            Start asking for price quotation among pre-filtered
+                            and pre-validated suppliers matching to your
+                            procurement category in 3 simple steps. No emails!
+                            No phone calls! All in one place!
+                          </h3>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <ul>
+                        <li>
+                          <h3>
+                            Receive limitless offers and let AI-Assistant to
+                            compare them with just one click to get valuable
+                            insights and comments for each pair of proposals,
+                            even if the proposals structures are different.
+                          </h3>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/5.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center product_content">
+                  <div class="col-lg-7 col-md-12">
+                    <div class="text">
+                      <ul>
+                        <li>
+                          <h3>
+                            Look at the best price quoted by your competitors
+                            and adjust your proposal in real time.
+                          </h3>
                         </li>
                         <li>
-                            <p>
-                                Remember that $1 saved by Procurement is the same as $10 value
-                                in additional sales.
-                            </p>
+                          <h3>
+                            No limitations, you are free to offer any price,
+                            betting on the proposed product or service quality.
+                          </h3>
                         </li>
                         <li>
-                            <p>
-                                Join our Waiting List Now to stay updated with the new
-                                features coming along.
-                            </p>
+                          <h3>
+                            Be the first to learn what is needed for your
+                            customers and make the best offer in one click.
+                          </h3>
                         </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-12">
+                    <img src="assets/img/product/6.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="value_proposition pb-0" id="value_proposition">
+        <div class="container">
+          <div class="about_text_content">
+            <div class="section_title">
+              <h2>Value Proposition</h2>
+            </div>
+            <ul class="mt-3">
+              <li>
+                <p>
+                  We are offering a set of tools with integrated Procurement
+                  AI-Assistant and promise to continuously improve the offered
+                  one-stop-solution for all your procurement operations, as an
+                  overarching solution to your existing processes.
+                </p>
+              </li>
+              <li>
+                <p>
+                  The Procurement AI-Assistant enables large companies to manage
+                  tail spend with no material capacity requirement. It also
+                  enables Small and Medium Businesses to organize the
+                  procurement operations professionally, in a fast and simple
+                  way, not losing the sight on a single contract performance.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Procurement AI-Assistant will supercharge the procurement
+                  professionals.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Less time spent, more money saved through the synergy of human
+                  and artificial intelligence.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Remember that $1 saved by Procurement is the same as $10 value
+                  in additional sales.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Join our Waiting List Now to stay updated with the new
+                  features coming along.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="pricing pb-3" id="pricing">
+        <div class="container">
+          <div class="section_title">
+            <h2>Pricing</h2>
+          </div>
+          <div class="pricing_table_area">
+            <div class="pricing_table mt-5">
+              <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 table_area">
+                  <div class="table_content">
+                    <div class="table_header">
+                      <h3>Basic</h3>
+                      <p class="mt-2">
+                        For early-stage startups that want to spend more time
+                        developing and less on manual operations.
+                      </p>
+                    </div>
+                    <div class="price mt-3">
+                      <h1>
+                        <span>$</span>49<span class="mo_year_title">/mo</span>
+                      </h1>
+                    </div>
+                    <div class="mt-4">
+                      <a href="#" class="btn pricing_status_btn">Standard</a>
+                    </div>
+                    <hr class="mt-3 mb-3" />
+                    <div class="pricing_info_list">
+                      <p>All core features, including:</p>
+                      <ul>
+                        <li>
+                          <span>
+                            <img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Only Basic Components</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>12+</b> Adv. Components</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>5</b> - Landing page</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>3</b> Dashboard Layouts</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Documentation</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Access to support forums</span
+                          >
+                          <span class="sm_btn">unlimited</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 table_area">
+                  <div class="table_content">
+                    <div class="table_header">
+                      <div class="h_title">
+                        <h3>Standard</h3>
+                        <span class="recommended">Most Popular</span>
+                      </div>
+                      <p class="mt-2">
+                        For early-stage startups that want to spend more time
+                        developing and less on manual operations.
+                      </p>
+                    </div>
+                    <div class="price mt-3">
+                      <h1>
+                        <span>$</span>149<span class="mo_year_title">/mo</span>
+                      </h1>
+                    </div>
+                    <div class="mt-4">
+                      <a href="#" class="btn pricing_status_btn"
+                        >Customer and Client</a
+                      >
+                    </div>
+                    <hr class="mt-3 mb-3" />
+                    <div class="pricing_info_list">
+                      <p>Everything in Standard +:</p>
+                      <ul>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Offline viewing</span
+                          >
+                          <span class="sm_btn">unlimited</span>
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>Unlimited</b> projects</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>Unlimited</b>storage</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Custom domain support</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Bulk editing</span
+                          >
+                        </li>
+                        <li>
+                          <span>
+                            <img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />12 / 5 support</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 table_area">
+                  <div class="table_content">
+                    <div class="table_header">
+                      <h3>Advanced</h3>
+                      <p class="mt-2">
+                        For early-stage startups that want to spend more time
+                        developing and less on manual operations.
+                      </p>
+                    </div>
+                    <div class="price mt-3">
+                      <h1>
+                        <span>$</span>200<span class="mo_year_title">/mo</span>
+                      </h1>
+                    </div>
+                    <div class="mt-3">
+                      <a href="#" class="btn pricing_status_btn pro_btn"
+                        >Pro Version</a
+                      >
+                    </div>
+                    <hr class="mt-3 mb-3" />
+                    <div class="pricing_info_list">
+                      <p>Everything in Multisite +</p>
+                      <ul>
+                        <li>
+                          <span>
+                            <img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Workshop</span
+                          >
+                          <span class="sm_btn">unlimited</span>
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>Dedicated</b> hardware</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            /><b>99.9% uptime</b> guarantee</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />Advanced analytics</span
+                          >
+                          <span class="sm_btn at">automated</span>
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />3rd party integrations</span
+                          >
+                          <span class="sm_btn">unlimited</span>
+                        </li>
+                        <li>
+                          <span
+                            ><img
+                              src="assets/img/icons/check-circle.svg"
+                              alt="Check Circle"
+                            />24 / 7 support</span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="profile_page pt-0 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 mt-2">
+              <div class="profile_content">
+                <div class="profile_header">
+                  <span
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h3>Supplier</h3>
+                    <p class="no_charge">Free of charge</p>
+                  </span>
+                  <p class="mt-2">
+                    Some shot script about options. For early-stage startups
+                    that want to spend more time developing and less on manual
+                    operations.
+                  </p>
+                </div>
+                <div class="profile_info_list mt-4">
+                  <p>All core features, including:</p>
+                  <div class="profile_illustration">
+                    <ul class="mt-2">
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Only Basic Components
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>12+</b>
+                        Adv. Components
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>5-</b>
+                        Landing page
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>3</b>Dashboard Layouts
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Documentation
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Access to support forums
+                      </li>
                     </ul>
+                    <div class="illustration_are">
+                      <img src="assets/img/illustration/Supplier.svg" alt="" />
+                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="pricing pb-3" id="pricing">
-            <div class="container">
-                <div class="section_title">
-                    <h2>Pricing</h2>
+            <div class="col-lg-6 col-sm-12 mt-2">
+              <div class="profile_content">
+                <div class="profile_header">
+                  <span
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <h3>Buyer</h3>
+                  </span>
+                  <p class="mt-2">
+                    Some shot script about options. For early-stage startups
+                    that want to spend more time developing and less on manual
+                    operations.
+                  </p>
                 </div>
-                <div class="pricing_table_area">
-                    <div class="pricing_table mt-5">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-6 col-sm-12 table_area">
-                                <div class="table_content">
-                                    <div class="table_header">
-                                        <h3>Basic</h3>
-                                        <p class="mt-2">
-                                            For early-stage startups that want to spend more time
-                                            developing and less on manual operations.
-                                        </p>
-                                    </div>
-                                    <div class="price mt-3">
-                                        <h1>
-                                            <span>$</span>49<span class="mo_year_title">/mo</span>
-                                        </h1>
-                                    </div>
-                                    <div class="mt-4">
-                                        <a href="#" class="btn pricing_status_btn">Standard</a>
-                                    </div>
-                                    <hr class="mt-3 mb-3" />
-                                    <div class="pricing_info_list">
-                                        <p>All core features, including:</p>
-                                        <ul>
-                                            <li>
-                                                <span>
-                                                    <img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Only Basic Components</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>12+</b> Adv. Components</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>5</b> - Landing page</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>3</b> Dashboard Layouts</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Documentation</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Access to support forums</span>
-                                                <span class="sm_btn">unlimited</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 table_area">
-                                <div class="table_content">
-                                    <div class="table_header">
-                                        <div class="h_title">
-                                            <h3>Standard</h3>
-                                            <span class="recommended">Most Popular</span>
-                                        </div>
-                                        <p class="mt-2">
-                                            For early-stage startups that want to spend more time
-                                            developing and less on manual operations.
-                                        </p>
-                                    </div>
-                                    <div class="price mt-3">
-                                        <h1>
-                                            <span>$</span>149<span class="mo_year_title">/mo</span>
-                                        </h1>
-                                    </div>
-                                    <div class="mt-4">
-                                        <a href="#" class="btn pricing_status_btn">Customer and Client</a>
-                                    </div>
-                                    <hr class="mt-3 mb-3" />
-                                    <div class="pricing_info_list">
-                                        <p>Everything in Standard +:</p>
-                                        <ul>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Offline viewing</span>
-                                                <span class="sm_btn">unlimited</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>Unlimited</b> projects</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>Unlimited</b>storage</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Custom domain support</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Bulk editing</span>
-                                            </li>
-                                            <li>
-                                                <span>
-                                                    <img src="assets/img/icons/check-circle.svg" alt="Check Circle" />12
-                                                    / 5 support</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 col-md-6 col-sm-12 table_area">
-                                <div class="table_content">
-                                    <div class="table_header">
-                                        <h3>Advanced</h3>
-                                        <p class="mt-2">
-                                            For early-stage startups that want to spend more time
-                                            developing and less on manual operations.
-                                        </p>
-                                    </div>
-                                    <div class="price mt-3">
-                                        <h1>
-                                            <span>$</span>200<span class="mo_year_title">/mo</span>
-                                        </h1>
-                                    </div>
-                                    <div class="mt-3">
-                                        <a href="#" class="btn pricing_status_btn pro_btn">Pro Version</a>
-                                    </div>
-                                    <hr class="mt-3 mb-3" />
-                                    <div class="pricing_info_list">
-                                        <p>Everything in Multisite +</p>
-                                        <ul>
-                                            <li>
-                                                <span>
-                                                    <img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Workshop</span>
-                                                <span class="sm_btn">unlimited</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>Dedicated</b> hardware</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" /><b>99.9% uptime</b> guarantee</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />Advanced analytics</span>
-                                                <span class="sm_btn at">automated</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />3rd party integrations</span>
-                                                <span class="sm_btn">unlimited</span>
-                                            </li>
-                                            <li>
-                                                <span><img src="assets/img/icons/check-circle.svg"
-                                                        alt="Check Circle" />24 / 7 support</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="profile_info_list mt-4">
+                  <p>All core features, including:</p>
+                  <div class="profile_illustration">
+                    <ul class="mt-2">
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Only Basic Components
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>12+</b>
+                        Adv. Components
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>5-</b>
+                        Landing page
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        /><b>3</b>Dashboard Layouts
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Documentation
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icons/check-circle.svg"
+                          alt="Check Circle"
+                        />Access to support forums
+                      </li>
+                    </ul>
+                    <div class="illustration_are">
+                      <img src="assets/img/illustration/Buyer.svg" alt="" />
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </section>
-        <section class="profile_page pt-0 pb-5">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12 mt-2">
-                        <div class="profile_content">
-                            <div class="profile_header">
-                                <span class="d-flex justify-content-between align-items-center"><h3>Supplier</h3><p class="no_charge">Free of charge</p></span>
-                                <p class="mt-2">
-                                    Some shot script about options. For early-stage startups
-                                    that want to spend more time developing and less on manual
-                                    operations.
-                                </p>
-                            </div>
-                            <div class="profile_info_list mt-4">
-                                <p>All core features, including:</p>
-                                <div class="profile_illustration">
-                                    <ul class="mt-2">
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" />Only Basic
-                                            Components
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" /><b>12+</b>
-                                            Adv. Components
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" /><b>5-</b>
-                                            Landing page
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg"
-                                                alt="Check Circle" /><b>3</b>Dashboard Layouts
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg"
-                                                alt="Check Circle" />Documentation
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" />Access to
-                                            support forums
-                                        </li>
-                                    </ul>
-                                    <div class="illustration_are">
-                                        <img src="assets/img/illustration/Supplier.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 mt-2">
-                        <div class="profile_content">
-                            <div class="profile_header">
-                                <span class="d-flex justify-content-between align-items-center"><h3>Buyer</h3></span>
-                                <p class="mt-2">
-                                    Some shot script about options. For early-stage startups
-                                    that want to spend more time developing and less on manual
-                                    operations.
-                                </p>
-                            </div>
-                            <div class="profile_info_list mt-4">
-                                <p>All core features, including:</p>
-                                <div class="profile_illustration">
-                                    <ul class="mt-2">
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" />Only Basic
-                                            Components
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" /><b>12+</b>
-                                            Adv. Components
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" /><b>5-</b>
-                                            Landing page
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg"
-                                                alt="Check Circle" /><b>3</b>Dashboard Layouts
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg"
-                                                alt="Check Circle" />Documentation
-                                        </li>
-                                        <li>
-                                            <img src="assets/img/icons/check-circle.svg" alt="Check Circle" />Access to
-                                            support forums
-                                        </li>
-                                    </ul>
-                                    <div class="illustration_are">
-                                        <img src="assets/img/illustration/Buyer.svg" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-0" id="user_manual">
+        <div class="container">
+          <div class="row">
+            <div class="section_title">
+              <h2 class="mb-2">Users Manual</h2>
             </div>
-        </section>
-        <section class="pt-0" id="user_manual">
-            <div class="container">
-                <div class="row">
-                    <div class="section_title">
-                        <h2 class="mb-2">Users Manual</h2>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Become a Supplier</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Become a Supplier</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Become a Supplier</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Become a Buyer</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Become a Buyer</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Beed</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Upload a Document</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Upload a Document</p>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <a href="#" class="user_m_list">
-                            <i class="bx bx-plus-circle icons"></i>
-                            <p>How to Upload a Document</p>
-                        </a>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Become a Supplier</p>
+              </a>
             </div>
-        </section>
-        <section class="footer" id="contact">
-            <div class="container">
-                <div class="footer_items">
-                    <div class="logo">
-                        <img src="assets/img/logo-white.svg" alt="">
-                    </div>
-                    <div class="footer_text">
-                        <h3>Contacts</h3>
-                        <ul>
-                            <li>
-                                <p>Accelerated buying decision</p>
-                            </li>
-                            <li>
-                                <p>Automated price negotiation</p>
-                            </li>
-                            <li>
-                                <p>Unbiased comparison of offers</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Become a Supplier</p>
+              </a>
             </div>
-        </section>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Become a Supplier</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Become a Buyer</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Become a Buyer</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Beed</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Upload a Document</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Upload a Document</p>
+              </a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <a href="#" class="user_m_list">
+                <i class="bx bx-plus-circle icons"></i>
+                <p>How to Upload a Document</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer" id="contact">
+        <div class="container">
+          <div class="footer_items">
+            <div class="logo">
+              <img src="assets/img/logo-white.svg" alt="" />
+            </div>
+            <div class="footer_text">
+              <h3>Contacts</h3>
+              <ul>
+                <li>
+                  <p>Accelerated buying decision</p>
+                </li>
+                <li>
+                  <p>Automated price negotiation</p>
+                </li>
+                <li>
+                  <p>Unbiased comparison of offers</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 
     <div class="side_ex_bg">
-        <img src="assets/img/Background Gradient.svg" alt="" />
-      </div>
+      <img src="assets/img/Background Gradient.svg" alt="" />
+    </div>
 
     <!-- JavaScript -->
     <script src="assets/js/jquery-3.6.4.min.js"></script>
@@ -731,6 +850,93 @@
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <script src="assets/js/style.js"></script>
-</body>
 
+    <script>
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollNavLinks = document.querySelectorAll('.nav_link');
+  const sections = document.querySelectorAll('section');
+
+  // Function to determine the currently active section based on scroll position
+  function getActiveSection() {
+  let scrollPosition = window.scrollY;
+
+  for (const section of sections) {
+    // Adjusted for better accuracy and accounting for fixed navigation bar
+    const sectionTop = section.offsetTop - 120;
+    const sectionBottom = sectionTop + section.offsetHeight;
+
+    if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+      return section;
+    }
+  }
+
+  // Return the first section if none of the above conditions are met
+  return sections[120];
+}
+
+  // Function to update the active link and apply styles based on the active section
+  function updateActiveLink() {
+    const activeSection = getActiveSection();
+
+    scrollNavLinks.forEach(link => {
+      const sectionId = link.getAttribute('href').replace('#', '');
+      const sectionElement = document.getElementById(sectionId);
+
+      if (sectionElement === activeSection) {
+        link.classList.add('active');
+      } else {
+        link.classList.remove('active');
+      }
+    });
+
+    // Apply styles to the active section and remove styles from others
+    sections.forEach(section => {
+      if (section === activeSection) {
+        section.classList.add('active_section');
+        section.style.paddingTop = '120px';
+      } else {
+        section.classList.remove('active_section');
+        section.style.paddingTop = ''; // Remove padding-top
+      }
+    });
+  }
+
+  // Event listener for smooth scrolling on link clicks
+  scrollNavLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+      event.preventDefault(); // Prevent default anchor link behavior
+
+      const sectionId = link.getAttribute('href').replace('#', '');
+      const sectionElement = document.getElementById(sectionId);
+
+      if (sectionElement) {
+        sectionElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start', // Align the top of the element to the top of the visible area
+          inline: 'nearest', // Keep the inline axis of the element as close to the viewport as possible
+        });
+      }
+    });
+  });
+
+  // Event listener for updating the active link and applying styles on scroll
+  window.addEventListener('scroll', updateActiveLink);
+
+  // Initial update to set the active link and apply styles on page load
+  updateActiveLink();
+});
+
+
+
+
+
+
+
+
+
+
+     </script>
+  </body>
 </html>

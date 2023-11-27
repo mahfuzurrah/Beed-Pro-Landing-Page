@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+
+
+
+
   /* ======================= Navbar ======================== */
 
   var navLinks = document.querySelectorAll(".nav_link");
@@ -36,14 +41,16 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   var swiper = new Swiper(".Swiper_product_overview", {
-    direction: 'horizontal',
+    spaceBetween: 30,
     loop: true,
     autoplay: {
       delay: 5000,
       disableOnInteraction: false,
     },
+    effect: "fade",
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
   });
 });

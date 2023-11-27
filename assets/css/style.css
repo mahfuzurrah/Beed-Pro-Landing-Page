@@ -172,8 +172,8 @@ img {
 
 /*====================== Coomon Css ======================*/
 section {
-  padding: 5.5rem 0;
-  height: 100%;
+  padding-top: 4.5rem;
+  padding-bottom: 50px;
 }
 
 .section_title h2 {
@@ -181,9 +181,9 @@ section {
   font-size: var(--h2-font-size);
 }
 
-.main {
+/* .main {
   margin-top: 75px;
-}
+} */
 
 .container {
   max-width: 1350px;
@@ -214,7 +214,7 @@ button,
   width: 100%;
   height: 75px;
   background: #f4f5f9;
-  position: fixed;
+  position: sticky;
   top: 0;
   overflow: hidden;
   padding: 0;
@@ -365,7 +365,7 @@ button,
   background: #000;
 }
 
-.banner .hero_banner img{
+.banner .hero_banner img {
   height: 600px;
   object-fit: cover;
   width: 100%;
@@ -412,7 +412,6 @@ button,
 
 .product_overview .section_title h2 {
   color: var(--primary-color);
-  margin-bottom: -60px;
 }
 
 .product_overview .text h3 {
@@ -435,6 +434,35 @@ button,
 .col-lg-7.col-md-12 {
   padding-right: 0;
 }
+
+.product_overview .swiper {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.product_overview .swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.product_overview .product_content {
+  background: #D7DADE;
+}
+
+.product_overview .section_title {
+  z-index: 99;
+}
+
+.product_overview .swiper-pagination{
+  
+}
+
+.product_overview .swiper {
+  overflow-y: none;
+  height: 100%;
+}
+
 
 /* ============
 PRICING PAGE
@@ -685,6 +713,11 @@ Footer css
 .footer_text h3 {
   margin-bottom: 20px;
 }
+
+/* .active_section{
+  padding: 7.5rem !important;
+} */
+
 
 /* ========================
 Responsive css
