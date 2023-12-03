@@ -269,9 +269,9 @@ button,
   font-family: var(--text-semibold);
 }
 
-.navbar .nav .nav_menu .btn {
+/* .navbar .nav .nav_menu .btn {
   margin-left: 30px;
-}
+} */
 
 .toogle_btn {
   background: transparent;
