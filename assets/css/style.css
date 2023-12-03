@@ -220,8 +220,8 @@ button,
   z-index: 9999;
 }
 
-.navbar .logo img {
-  width: 150px;
+.navbar .logo{
+  width: 292px;
 }
 
 .navbar .nav {
@@ -233,6 +233,7 @@ button,
 
 .navbar .nav .nav_menu {
   display: flex;
+  gap: 24px;
   align-items: center;
   transition: all 0.5s ease-in-out;
 }
@@ -240,12 +241,17 @@ button,
 .navbar .nav .nav_menu .nav_list {
   display: flex;
   align-items: center;
+  gap: 24px;
 }
 
 .navbar .nav .nav_menu .nav_list:hover,
 .navbar .nav .nav_menu .nav_link.active {
   background: #3f526f29;
   transition: all 0.5s ease-in-out;
+}
+
+.navbar .nav .nav_menu .nav_list:hover:last-child{
+  background: transparent;
 }
 
 .navbar .nav .nav_menu .nav_link.active {
@@ -279,7 +285,7 @@ button,
   font-size: 30px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1250px) {
   .toogle_btn {
     display: block;
   }
