@@ -185,7 +185,7 @@ section {
 } */
 
 .container {
-  max-width: 1350px;
+  max-width: 1175px;
   padding-left: 30px;
   padding-right: 30px;
 }
@@ -396,7 +396,7 @@ button,
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 30px;
+  gap: 24px;
   padding: 40px 30px;
   border: none;
   height: 220px;
@@ -422,7 +422,7 @@ button,
 
 .product_overview .text h3 {
   color: var(--primary-color);
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .product_overview ul {
