@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:wght@400;500;700&family=Source+Sans+3:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
 
 @font-face {
   font-family: "SourceSansPro";
@@ -106,8 +107,7 @@ h3 {
 }
 
 p {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
+  font-family: 'DM Sans', sans-serif;  font-size: var(--normal-font-size);
   color: var(--description-color);
   margin: 0;
   line-height: 1.6;
@@ -197,14 +197,17 @@ section {
 
 button,
 .btn {
-  padding: 12px 24px;
+  padding: 8px 16px;
   background: var(--primary-color);
   color: var(--white-color);
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 8px;
+  text-align: center;
+  gap: 5px;
   font-size: 14px;
   font-weight: 600;
+  border-radius: 4px;
 }
 
 .btn:hover {
@@ -277,6 +280,7 @@ button,
 
 .navbar .nav .nav_menu .btn .icons{
   margin-top: 3px;
+  font-size: 16px;
 }
 
 .toogle_btn {
@@ -519,6 +523,7 @@ PRICING PAGE
 
 .pricing .pricing_table_area .table_content .price h1 {
   font-size: 48px;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .pricing .pricing_table_area .table_content .price h1 .mo_year_title {
@@ -554,7 +559,11 @@ PRICING PAGE
 .pricing .pricing_table_area .table_content .pricing_info_list ul li span {
   display: flex;
   align-items: center;
-  gap: 10px;
+  /* gap: 10px; */
+}
+
+.pricing .pricing_table_area .table_content .pricing_info_list ul li span img {
+  margin-right: 10px;
 }
 
 .pricing .pricing_table_area .table_content .pricing_info_list ul li {
@@ -566,6 +575,7 @@ PRICING PAGE
   font-size: var(--normal-font-size);
   color: var(--gray-black-color);
   font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
 }
 
 .pricing .pricing_table_area .table_content .pricing_info_list ul li .sm_btn {
