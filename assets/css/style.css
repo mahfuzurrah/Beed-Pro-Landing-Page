@@ -190,6 +190,11 @@ section {
   padding-right: 30px;
 }
 
+.container-fluid{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
 button,
 .btn {
   padding: 12px 24px;
@@ -198,7 +203,8 @@ button,
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -265,13 +271,13 @@ button,
   height: 75px;
   display: flex;
   align-items: center;
-  font-size: 16px;
+  font-size: 14px !important;
   font-family: var(--text-semibold);
 }
 
-/* .navbar .nav .nav_menu .btn {
-  margin-left: 30px;
-} */
+.navbar .nav .nav_menu .btn .icons{
+  margin-top: 3px;
+}
 
 .toogle_btn {
   background: transparent;
