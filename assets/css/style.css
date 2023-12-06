@@ -107,7 +107,7 @@ h3 {
 }
 
 p {
-  font-family: 'DM Sans', sans-serif;  font-size: var(--normal-font-size);
+  font-family: 'DM Sans', sans-serif;  font-size: var(--small-font-size);
   color: var(--description-color);
   margin: 0;
   line-height: 1.6;
@@ -208,6 +208,7 @@ button,
   font-size: 14px;
   font-weight: 600;
   border-radius: 4px;
+  width: max-content;
 }
 
 .btn:hover {
@@ -427,12 +428,12 @@ button,
 
 .product_overview .section_title h2 {
   color: var(--primary-color);
-  margin-bottom: -35px;
+  margin-bottom: -20px;
 }
 
 .product_overview .text h3 {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .product_overview ul {
@@ -559,7 +560,7 @@ PRICING PAGE
 .pricing .pricing_table_area .table_content .pricing_info_list ul li span {
   display: flex;
   align-items: center;
-  /* gap: 10px; */
+  font-size: var(--small-font-size)
 }
 
 .pricing .pricing_table_area .table_content .pricing_info_list ul li span img {

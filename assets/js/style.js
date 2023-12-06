@@ -1,9 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-
-
-
-
+  
   /* ======================= Navbar ======================== */
 
   var navLinks = document.querySelectorAll(".nav_link");
