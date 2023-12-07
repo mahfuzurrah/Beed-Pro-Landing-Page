@@ -433,6 +433,7 @@ button,
 
 .product_overview .text h3 {
   color: var(--primary-color);
+  font-family: "SourceSansPro";
   font-size: 25px;
   font-weight: 700
 }
