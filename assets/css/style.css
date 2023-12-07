@@ -432,10 +432,12 @@ button,
 }
 
 .product_overview .text h3 {
-  color: var(--primary-color);
-  font-family: "SourceSansPro";
+  color: #3F526F;
+  font-family: "SourceSansPro-Bold";
   font-size: 25px;
-  font-weight: 700
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -1px;
 }
 
 .product_overview ul {
