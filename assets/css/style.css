@@ -388,7 +388,7 @@ button,
 
 .banner .hero_banner .container {
   position: absolute;
-  top: 25%;
+  /* top: 25%; */
 }
 
 .banner .swiper-pagination {
@@ -434,6 +434,7 @@ button,
 .product_overview .text h3 {
   color: var(--primary-color);
   font-size: 25px;
+  font-weight: 700;
 }
 
 .product_overview ul {
@@ -644,7 +645,7 @@ Profile css
 }
 
 .user_m_list p {
-  font-size: var(--normal-font-size);
+  font-size: var(--small-font-size);
   font-family: var(--text-semibold);
   color: #262526;
 }
@@ -735,6 +736,7 @@ Footer css
 }
 
 .footer_text h3 {
+  font-size: 20px;
   margin-bottom: 20px;
 }
 
