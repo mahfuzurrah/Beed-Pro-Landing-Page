@@ -434,7 +434,7 @@ button,
 .product_overview .text h3 {
   color: var(--primary-color);
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 700
 }
 
 .product_overview ul {
